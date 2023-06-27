@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pyrallel-change-kata"
+version = "0.1.0"
+description = ""
+authors = ["wassel.alazhar <wassel.alazhar@octo.com>"]
+readme = "README.md"
+packages = [{include = "pyrallel_change_kata", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
